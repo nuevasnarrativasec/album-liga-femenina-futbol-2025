@@ -432,7 +432,7 @@ body, html {
     #wst{
         display: inline-block;
     }
-    .main-portada video{
+    body .main-portada video{
         height: 100%;
         position: fixed;
     }
