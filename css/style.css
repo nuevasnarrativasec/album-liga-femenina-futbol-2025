@@ -1,0 +1,449 @@
+@font-face {
+    font-family: 'prelomedium';   
+    src: url('../fonts/Prelo-Medium-webfont.woff2') format('woff2'),
+         url('../fonts/Prelo-Medium-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'prelosemibold';
+    src: url('../fonts/Prelo-SemiBold-webfont.woff2') format('woff2'),
+         url('../fonts/Prelo-SemiBold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'prelobold';
+    src: url('../fonts/Prelo-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Prelo-Bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'preloextrabold';
+    src: url('../fonts/Prelo-ExtraBold-webfont.woff2') format('woff2'),
+         url('../fonts/Prelo-ExtraBold-webfont.woff') format('woff');
+}
+
+.clear{
+    clear: both;
+}
+
+body, html {    
+    margin: 0;    
+    padding: 0;   
+    font-display: swap; 
+    font-style: normal;   
+    font-weight: normal;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#header{
+    margin-bottom: 50px;
+    width: 100%;
+}
+    .header-comercio{   
+        background: #000;    
+        position: relative;
+        width: 100%;
+        z-index: 9999999;
+    }
+        .ctn-header-comercio{
+            margin: 0 auto;     
+            max-width: 1024px;
+            padding: 0 5px;
+            text-align: right;
+        }
+            .ctn-header-comercio a{
+                display: inline-block;                
+                text-indent: -9999px;
+            }
+                a.logo-comercio{
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/somos-35-anos-mejores-portadas-ecpm/img/logo-comercio.png?v2) no-repeat 0 0;
+                    background-size: 100%;
+                    display: none;
+                    height: 30px;
+                    margin-top: 10px;
+                    width: 110px;
+                }
+                #social{
+                        float: right;
+                        margin: 20px;
+                        position: absolute;
+                        right: 0;
+                        z-index: 600;
+                }
+                #social ul{
+                    display: inline-block;
+                    margin: 0 auto;
+                    padding: 0;
+                    vertical-align: middle;
+                }
+                    #social ul li{
+                        display: inline-block;
+                        margin: 0 3px;
+                        vertical-align: middle;
+                    }
+                        #social ul li a{
+                            height: 36px;
+                            width: 36px;
+                        }
+                        #fb{
+                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/fb-icon.png?v2) no-repeat 0 0;
+                            background-size: 100% !important;
+                            border: none;
+                            display: inline-block;
+                            height: 36px;
+                            text-indent: -9999px;
+                            width: 36px;
+                        }
+                        #wst{                
+                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/wsp-icon.png?v2) no-repeat 0 0 !important;
+                            background-size: 100% !important;
+                            border: none;
+                            display: none;
+                            height: 36px;
+                            text-indent: -9999px;
+                            width: 36px;
+                        }
+                        #tw{            
+                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/tw-icon.png?v2) no-repeat 0 0 !important;
+                            background-size: 100% !important;
+                            border: none;
+                            display: inline-block;
+                            height: 36px;
+                            text-indent: -9999px;
+                            width: 36px;
+                        } 
+.main-portada{
+
+}
+    .main-portada video{
+        height: 70vw;
+        object-fit: cover;
+        position: absolute;        
+    }
+    .ctn-portada{
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
+        .header-portada{
+            margin: 0 auto;
+            max-width: 300px;
+            padding-top: 80px;
+        }
+            .header-portada img{
+                display: block;
+                margin: 0 auto;
+                max-width: 150px;
+            }
+            .header-portada h4{
+                color: #fff;
+                font: 1rem/1.1 'prelomedium';
+                text-align: center;
+            }
+                .header-portada h4 span{
+                    display: block;
+                    font: 2.2rem/1.1 'prelobold';
+                    text-transform: uppercase;
+                }
+        .icon-click{
+            display: block;
+            margin: 0 auto;
+            max-width: 110px;
+        }
+        ul.escudos{
+            margin: 0 auto;
+            max-width: 400px;
+            padding: 0;
+            text-align: center;
+        }
+            ul.escudos li{
+                cursor: pointer;
+                display: inline-block;
+                height: 140px;
+                text-indent: -9999px;
+                vertical-align: top;
+                width: 120px;
+            }
+                ul.escudos li:nth-child(1){
+                    background: url('../img/btn-alianza-1.png') no-repeat center top;
+                    background-size: 100%;
+                }
+                    ul.escudos li:nth-child(1):hover{
+                        background: url('../img/btn-alianza-2.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+                ul.escudos li:nth-child(2){
+                        background: url('../img/btn-cristal-1.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+                    ul.escudos li:nth-child(2):hover{
+                        background: url('../img/btn-cristal-2.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+                ul.escudos li:nth-child(3){
+                    background: url('../img/btn-universitario-1.png') no-repeat center top;
+                    background-size: 100%;
+                }
+                    ul.escudos li:nth-child(3):hover{
+                        background: url('../img/btn-universitario-2.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+                ul.escudos li:nth-child(4){
+                    background: url('../img/btn-melgar-1.png') no-repeat center top;
+                    background-size: 100%;
+                }
+                    ul.escudos li:nth-child(4):hover{
+                        background: url('../img/btn-melgar-2.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+                ul.escudos li:nth-child(5){
+                    background: url('../img/btn-vallejo-1.png') no-repeat center top;
+                    background-size: 100%;
+                }
+                    ul.escudos li:nth-child(5):hover{
+                        background: url('../img/btn-vallejo-2.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+                ul.escudos li:nth-child(6){
+                    background: url('../img/btn-killas-1.png') no-repeat center top;
+                    background-size: 100%;
+                }
+                    ul.escudos li:nth-child(6):hover{
+                        background: url('../img/btn-killas-2.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+                ul.escudos li:nth-child(7){
+                    background: url('../img/btn-mannucci-1.png') no-repeat center top;
+                    background-size: 100%;
+                }
+                    ul.escudos li:nth-child(7):hover{
+                        background: url('../img/btn-mannucci-2.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+                ul.escudos li:nth-child(8){
+                    background: url('../img/btn-flamengo-1.png') no-repeat center top;
+                    background-size: 100%;
+                }
+                    ul.escudos li:nth-child(8):hover{
+                        background: url('../img/btn-flamengo-2.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+                ul.escudos li:nth-child(9){
+                    background: url('../img/btn-defensores-1.png') no-repeat center top;
+                    background-size: 100%;
+                }
+                    ul.escudos li:nth-child(9):hover{
+                        background: url('../img/btn-defensores-2.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+                ul.escudos li:nth-child(10){
+                    background: url('../img/btn-unsaac-1.png') no-repeat center top;
+                    background-size: 100%;
+                }
+                    ul.escudos li:nth-child(10):hover{
+                        background: url('../img/btn-unsaac-2.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+                ul.escudos li:nth-child(11){
+                    background: url('../img/btn-biavo-1.png') no-repeat center top;
+                    background-size: 100%;
+                }
+                    ul.escudos li:nth-child(11):hover{
+                        background: url('../img/btn-biavo-2.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+                ul.escudos li:nth-child(12){
+                    background: url('../img/btn-ancash-1.png') no-repeat center top;
+                    background-size: 100%;
+                }
+                    ul.escudos li:nth-child(12):hover{
+                        background: url('../img/btn-ancash-2.png') no-repeat center top;
+                        background-size: 100%;
+                    }
+.box-equipo{
+    height: 100%;
+    width: 100%;
+    position: absolute;    
+    z-index: 9999999;
+}
+    .ctn-equipo{
+        height: 100%;
+        width: 100%;        
+    }
+        .header-equipo{
+            background: url('../img/bg-header-equipo.jpg?v2') no-repeat center top;
+            background-size: 100%;
+            padding: 40px 0 20px;
+            width: 100%;
+        }
+            .header-equipo .btn-volver{
+                cursor: pointer;
+                left: 50%;
+                max-width: 30px;                
+                position: absolute;                
+                transform: translate(-120px, 40px);
+            }
+            .header-equipo img{
+                display: block;
+                margin: 0 auto;
+                max-width: 150px;
+            }
+            .header-equipo .bg-escudo{
+                display: block;
+                margin: 20px auto;
+                max-width: 70px;
+            }
+            .header-equipo h5{
+                color: #fff;
+                font: 1.5rem/1.2 'prelobold';
+                margin: 5px auto;
+                text-align: center;
+                text-transform: uppercase;
+            }
+                .header-equipo h5 span{
+                    display: block;
+                    font-size: 1.2rem;
+                    margin: 3px auto;
+                    text-transform: none;
+                }
+            .header-equipo .icon-scroll{
+                display: block;
+                margin: 10px auto;
+                max-width: 220px;
+            }
+            .plantel {
+                display: flex;
+                overflow-x: auto; 
+                scroll-snap-type: x mandatory; 
+                -webkit-overflow-scrolling: touch; 
+                gap: 10px;
+                padding: 10px;
+                white-space: nowrap; 
+                scrollbar-width: thin; 
+            }            
+                .plantel::-webkit-scrollbar {
+                    height: 6px; 
+                }            
+                .plantel::-webkit-scrollbar-thumb {
+                    background: #aaa;
+                    border-radius: 4px;
+                }            
+                .plantel li {
+                    flex: 0 0 auto;
+                    min-width: 200px;                    
+                    scroll-snap-align: center;                    
+                    text-align: center;
+                    user-select: none;
+                }
+                    .plantel li img{
+                        pointer-events: none;
+                        margin: 0 10px;
+                        max-width: 200px;
+                    }
+        .bottom-equipo{
+            background: url('../img/bg-bottom-equipo.jpg?v2') no-repeat center top;
+            background-size: cover;
+            padding: 2px 0 120px;
+            width: 100%;
+        }
+            .bottom-equipo h5{
+                color: #fff;
+                font: 1.5rem/1.2 'prelobold';
+                margin: 10px auto;
+                text-align: center;
+                text-transform: uppercase;
+            }
+                .bottom-equipo h5 span{
+                    display: block;
+                    font-size: 1.9rem;
+                }
+            img.formacion{
+                display: block;
+                margin: 0 auto;
+                max-width: 600px;
+            }
+            .box-datos-dt{
+                text-align: center;
+            }
+                .box-datos-dt h4{
+                    color: #fff;
+                    font: 1.5rem / 1.3 'prelobold';
+                    text-transform: uppercase;
+                    margin: 10px auto 0;
+                }
+                    .box-datos-dt h4 span{
+                        display: block;
+                        font: 1.1rem/1.2 'prelomedium';
+                        text-transform: none;
+                    }
+                .box-datos-dt p{
+                    color: #FB0000;
+                    font: 1.1rem/1.2 'prelomedium';
+                    margin: 5px auto;
+                }
+            .box-fixture{
+                margin: 0 auto;
+                max-width: 350px;
+                text-align: center;
+            }
+                .box-fixture h4{
+                    color: #fff;
+                    font: 1.3rem / 1.3 'prelobold';
+                    text-transform: uppercase;
+                }
+                .box-fecha{
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+                    .box-fecha h5{
+                        color: #FB0000;
+                        font-size: 14px;
+                        margin: 0 auto 5px;
+                    }
+                    .box-fecha h6{
+                        border: 1px solid #fff;
+                        color: #fff;
+                        display: inline-block;
+                        font: 1.1rem/1.2 'prelomedium';
+                        margin: 0 auto;
+                        min-width: 150px;
+                        padding: 5px 0;
+                        vertical-align: top;
+                    }
+                        .box-fecha h6.izq{
+                            margin-right: -4px;
+                        }
+                        .box-fecha h6.der{
+                            margin-left: -4px;
+                        }
+                    .box-fecha span{
+                        background-color: #fff;
+                        color: #FB0000;
+                        display: inline-block;
+                        font: 1.1rem/1.2 'prelomedium';
+                        padding: 6px 5px;
+                        vertical-align: top;
+                    }
+            
+
+
+@media only screen and (max-width: 640px) {
+
+    #wst{
+        display: inline-block;
+    }
+    .main-portada video{
+        height: 100%;
+        position: fixed;
+    }
+    .header-equipo{
+        background-size: cover;
+    }
+
+}
+
+@media only screen and (max-height: 732px) {
+   
+
+
+}
