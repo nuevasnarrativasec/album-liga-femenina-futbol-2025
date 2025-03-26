@@ -145,6 +145,20 @@ body, html {
                     font: 2.2rem/1.1 'prelobold';
                     text-transform: uppercase;
                 }
+        .ctn-portada a{
+            background-color: #FF0000;
+            border: 2px solid #fff;
+            border-radius: 40px;
+            color: #fff;
+            cursor: pointer;
+            display: block;
+            font: 1rem/1.2 'prelosemibold';
+            margin: 20px auto;
+            max-width: 150px;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
         .icon-click{
             display: block;
             margin: 0 auto;
