@@ -513,7 +513,15 @@ body, html {
 @media only screen and (max-width: 1024px) {
    
     .main-portada video{
-        height: 110vw;
+        height: 115vw;
+    }
+
+}
+
+@media only screen and (max-width: 1180px) {
+   
+    .main-portada video{
+        height: 100vw;
     }
 
 }
