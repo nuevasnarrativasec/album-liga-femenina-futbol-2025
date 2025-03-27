@@ -114,7 +114,7 @@ body, html {
 
 }
     .main-portada video{
-        height: 70vw;
+        height: 85vw;
         object-fit: cover;
         position: absolute;        
     }
@@ -145,7 +145,7 @@ body, html {
                     font: 2.2rem/1.1 'prelobold';
                     text-transform: uppercase;
                 }
-        .ctn-portada a{
+        .ctn-portada a.btn-fixture{
             background-color: #FF0000;
             border: 2px solid #fff;
             border-radius: 40px;
@@ -274,6 +274,34 @@ body, html {
                         background: url('../img/btn-ancash-2.png') no-repeat center top;
                         background-size: 100%;
                     }
+.box-footer{
+    padding-top: 40px;
+    text-align: center;
+}
+    .box-footer ul{
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+        .box-footer ul li{
+            margin-bottom: 5px;
+        }
+            .box-footer ul li p{
+                color: #fff;
+                display: inline-block;
+                font: 1rem/1.2 'prelomedium';  
+                margin: 0 auto;
+                padding-bottom: 10px; 
+                vertical-align: bottom;
+            }
+                .box-footer ul li p b{
+                    font-family: 'prelobold';
+                }
+            .box-footer ul li img{
+                display: inline-block;
+                max-width: 100px;
+                vertical-align: top;
+            }
 .box-equipo{
     height: 100%;
     width: 100%;
