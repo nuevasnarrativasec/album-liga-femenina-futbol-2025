@@ -314,7 +314,7 @@ body, html {
     }
         .header-equipo{
             background: url('../img/bg-header-equipo.jpg?v2') no-repeat center top;
-            background-size: 100%;
+            background-size: cover;
             padding: 40px 0 20px;
             width: 100%;
         }
