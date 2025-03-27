@@ -111,7 +111,10 @@ body, html {
                             width: 36px;
                         } 
 .main-portada{
-
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
 }
     .main-portada video{
         height: 85vw;
@@ -119,11 +122,12 @@ body, html {
         position: absolute;        
     }
     .ctn-portada{
+        height: 100%;
         left: 0;
         position: absolute;
         top: 0;
         width: 100%;
-        z-index: 10;
+        z-index: 10;  
     }
         .header-portada{
             margin: 0 auto;
