@@ -490,10 +490,26 @@ body, html {
 
 }
 
+@media only screen and (max-width: 768px) {
+
+    body .main-portada video {
+        height: 155vw;
+    }
+
+}
+
+@media only screen and (max-width: 820px) {
+
+    body .main-portada video {
+        height: 155vw;
+    }
+
+}
+
 @media only screen and (max-width: 1024px) {
    
     .main-portada video{
-        height: 90vw;
+        height: 110vw;
     }
 
 }
